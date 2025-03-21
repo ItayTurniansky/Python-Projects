@@ -1,0 +1,17 @@
+1) TKINTER - GUI
+2) multiple tabs - one spreadsheet per tab with ability to access data inbetween tabs.
+3) cell text design and font choosing.
+4) spreadsheet export to csv,json and xlsx.
+5) csv file loading data into app
+6) mypy
+
+
+1) multiple tabs- the app can create multiple spreadsheets, one in each tab and the user can access
+spreadsheets from different tabs to use in his formulas and functions. this was accomplished by using
+a distinct cell ID and recursion functions.
+
+2) cell design the user can choose a cell's font and text color,
+this was accomplished by using a few libraries and built in functions
+
+3) TKINTER GUI- this was very hard to build with no former knowledge, but by far my favorite part of
+the project :)

@@ -1,0 +1,24 @@
+Welcome to Itay's spreadsheet app!
+this app can help you manage and control data!
+you can insert text and integers into the cells.
+this app supports multiple spreadsheets, each in a separate tab.
+each cell has a specific id that you can use in the formulas options.
+Cell ID = (tab_num, column, row). F.E(1a0)
+
+if you start a cell with the = mark you can use the one of the following:
+1)=SUM gets the sum of all values in given cells. F.E =sum(1a0 1a2 3a4)
+2)=AVG gets the average value of the given cells. F.E =avg(1a0 1a2 3a4)
+3)=MIN gets the minimum value of the given cells. F.E =min(1a0 1a2 3a4)
+4)=MAX gets the maximus value of the given cells. F.E =max(1a0 1a2 3a4)
+
+this app also has a change color feature.You can customize your text color by clicking the CHANGE FONT COLOR BUTTON
+this app also has a change font feature.You can customize your text font by clicking the CHANGE FONT BUTTON
+
+
+this app supports the loading and saving of json and csv files:
+1) for loading a saves file. run the following command: "python main.py <'File_Name'>". and replace File_Name with your file's name.
+2) for saving your spreadsheet click the generate csv or the generate json buttons and the file wil be automatically saved to your project folder.
+3) to save your workbook in xlsx format, press the generate XL button and the file will be automatically added to you project folder.
+
+
+
